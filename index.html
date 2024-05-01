@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mayara & Daniel</title>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link href="css/library.css" rel="stylesheet">
+    <link href="fonts/themify-icons.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css?family=Dosis:300,400,600,700%7COpen+Sans:300,400,700%7CPlayfair+Display:400,400i,700,700i"
+        rel="stylesheet">
+    <link href="fonts/marsha/stylesheet.css" rel="stylesheet">
+    <script src="https://www.gstatic.com/firebasejs/8.2.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.0/firebase-database.js"></script>
+</head>
+
+<body class="gla_middle_titles">
+    <div class="gla_page" id="gla_page">
+        <a href="#gla_page" class="gla_top ti ti-angle-up gla_go"></a>
+        <!-- MUSIC -->
+        <div class="gla_music_icon">
+            <i class="ti ti-music"></i>
+        </div>
+        <div class="gla_music_icon_cont">
+            <iframe src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/66757544&amp;auto_play=true&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+        </div>
+        <!-- END MUSIC -->
+        <!-- HEADER -->
+        <header class="gla_nav_abs">
+            <nav class="gla_light_nav">
+                <div class="container">
+                    <div class="gla_logo_container clearfix">
+                        <img src="images/logo.png" alt="">
+                        <!-- LOGO -->
+                        <div class="gla_logo_txt">
+                            <a href="/" class="gla_logo">Mayara & Daniel</a>
+                        </div>
+                        <!-- END LOGO -->
+                    </div>
+                    <!-- MENU -->
+                    <div class="gla_main_menu gla_main_menu_mobile">
+                        <div class="gla_main_menu_icon">
+                            <i></i><i></i><i></i><i></i>
+                            <b>Menu</b>
+                            <b class="gla_main_menu_icon_b">Back</b>
+                        </div>
+                    </div>
+
+                    <!-- MENU CONTENT -->
+                    <div class="gla_main_menu_content gla_image_bck" data-color="rgba(0,0,0,0.10)"
+                        data-image="http://placehold.it/1400x800">
+                        <!-- OVER -->
+                        <div class="gla_over" data-color="#000" data-opacity="0.7"></div>
+                    </div>
+
+                    <div class="gla_main_menu_content_menu gla_wht_txt text-right">
+                        <div class="container">
+                            <ul>
+                                <li class="gla_parent"><a href="#gla-rsvp">Confirme</a></li>
+                                <li class="gla_parent"><a href="#">Lista de Presente</a></li>
+                            </ul>
+                            <div class="gla_main_menu_content_menu_copy">
+                                <form>
+                                    <input type="text" class="form-control" placeholder="Enter Your Keywords">
+                                    <button type="submit" class="btn">
+                                        Search
+                                    </button>
+                                </form>
+                                <br>
+                                <p>© Thaisplicando 2024</p>
+                                <!-- Social Buttons -->
+                                <div class="gla_footer_social">
+                                    <a href="#"><i class="ti ti-facebook gla_icon_box"></i></a>
+                                    <a href="#"><i class="ti ti-instagram gla_icon_box"></i></a>
+                                    <a href="#"><i class="ti ti-google gla_icon_box"></i></a>
+                                    <a href="#"><i class="ti ti-youtube gla_icon_box"></i></a>
+                                    <a href="#"><i class="ti ti-twitter gla_icon_box"></i></a>
+                                    <a href="#"><i class="ti ti-pinterest gla_icon_box"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- END MENU CONTENT -->
+                    </div>
+                    <!-- END MENU -->
+                    <!-- SEARCH BLOCK -->
+                    <div class="gla_search_block">
+                        <div class="gla_search_block_link gla_search_parent"><i class="ti ti-search"></i>
+                            <ul>
+                                <li>
+                                    <form>
+                                        <input type="text" class="form-control" placeholder="Enter Your Keywords">
+                                        <button type="submit" class="btn">
+                                            <i class="ti ti-search"></i>
+                                        </button>
+                                    </form>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- END SEARCH BLOCK -->
+                    <!-- TOP MENU -->
+                    <div class="gla_default_menu">
+                        <ul>
+                            <li class="gla_parent"><a href="#gla-rsvp">Confirme</a></li>
+                            <li class="gla_parent"><a href="#">Lista de Presente</a></li>
+                        </ul>
+                    </div>
+                    <!-- END TOP MENU -->
+                </div>
+                <!-- END CONTAINER -->
+            </nav>
+        </header>
+        <!-- END HEADER -->
+        <!-- SLIDER -->
+        <div class="gla_slider gla_image_bck gla_fixed" data-color="#fafafd">
+            <!-- FLOWERS -->
+            <div class="gla_slider_flower">
+                <div class="gla_slider_flower_c1 gla_slider_flower_ii gla_slider_flower_item"
+                    data-start="top:0px; left:0px" data-200-start="top:-300px; left:-300px"></div>
+                <div class="gla_slider_flower_c2 gla_slider_flower_ii gla_slider_flower_item" data-start="top:0px; right:0px" data-200-start="top:-300px; right:-300px"></div>
+                <div class="gla_slider_flower_c3 gla_slider_flower_ii gla_slider_flower_item" data-start="bottom:0px; right:0px" data-200-start="bottom:-300px; right:-300px"></div>
+                <div class="gla_slider_flower_c4 gla_slider_flower_ii gla_slider_flower_item" data-start="bottom:0px; left:0px" data-200-start="bottom:-300px; left:-300px"></div>
+                <!-- <div class="gla_slider_flower_c5 gla_slider_flower_ii gla_slider_flower_item" data-start="top:0px; left:50%" data-200-start="top:-300px; left:50%"></div> -->
+                <div class="gla_slider_flower_c6 gla_slider_flower_ii gla_slider_flower_item" data-start="bottom:0px; left:50%" data-200-start="bottom:-300px; left:50%"></div>
+            </div>
+            <!-- END FLOWERS -->
+            <!-- OVER -->
+            <div class="gla_over" data-color="#1e1d2d" data-opacity="0"></div>
+            <div class="container">
+                <!-- SLIDER TEXTS -->
+                <div class="gla_slide_txt gla_slide_center_middle text-center">
+                    <p><img src="images/logo.png" data-top-bottom="@src:images/logo.png" alt="" height="400"></p>
+                    
+                </div>
+                <!-- END SLIDER TEXTS -->
+            </div>
+            <a class="gla_scroll_down gla_go" href="#gla_content">
+                <b></b>
+                Scroll
+            </a>
+            <!-- END OVER -->
+        </div>
+        <!-- END SLIDER -->
+        <!-- CONTENT -->
+        <section id="gla_content" class="gla_content" >
+            <div class="gla_slider gla_wht_txt">
+                <div class="gla_slider_carousel">
+                    <div class="gla_slider gla_image_bck" data-image="https://i.ibb.co/h8108qw/Whats-App-Image-2024-05-01-at-15-28-52-2-2.png">
+                        <div class="gla_over" data-color="#000" data-opacity="0.6"></div>                        
+                        <div class="container">
+                            <div class="gla_slide_txt gla_slide_center_middle text-center">
+                                <p><img src="images/animations/savethedate.gif" data-bottom-top="@src:images/animations/savethedate_wh.gif" height="250" alt=""></p>
+                            </div>
+                
+                        </div>
+                    </div>
+                    <div class="gla_slider gla_image_bck" data-image="https://i.ibb.co/h8108qw/Whats-App-Image-2024-05-01-at-15-28-52-2-2.png">
+                        <div class="gla_over" data-color="#000" data-opacity="0.6"></div>
+                        <div class="container">
+                            <div class="gla_slide_txt gla_slide_center_middle text-center">
+                                <div class="gla_slide_title">Mayara & Daniel</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gla_slider gla_image_bck" data-image="https://i.ibb.co/h8108qw/Whats-App-Image-2024-05-01-at-15-28-52-2-2.png">
+                        <div class="gla_over" data-color="#000" data-opacity="0.6"></div>                        
+                        <div class="container">
+                            <div class="gla_slide_txt gla_slide_center_middle text-center">
+                                <div class="gla_slide_title">10 de Outubro de 2024</div>
+                            </div>
+                
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- SECTION HISTORY -->
+            <section class="gla_section gla_image_bck" data-color="#f3f3f3">
+                <div class="gla_slider_flower" data-bottom-top="@class:gla_slider_flower active" data--200-bottom="@class:gla_slider_flower no_active">
+                    <div class="gla_slider_flower_c1 gla_slider_flower_iii gla_slider_flower_item"></div>
+                    <div class="gla_slider_flower_c2 gla_slider_flower_iii gla_slider_flower_item"></div>
+                    <div class="gla_slider_flower_c3 gla_slider_flower_iii gla_slider_flower_item"></div>
+                    <div class="gla_slider_flower_c4 gla_slider_flower_iii gla_slider_flower_item"></div>
+                </div>
+                <div class="gla_over" data-color="#000" data-opacity="0.08"></div>
+                <div class="container text-center">
+                    <div class="gla_slide_midtitle" style="color: #83341E;">Nossa história</div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae elit quis mi mollis consectetur. Mauris non arcu ipsum. Phasellus accumsan dolor et justo venenatis, ut laoreet libero consequat. Nullam consectetur lacus at est fermentum, vitae tempus ligula ultrices. Vivamus vitae quam nec mi cursus efficitur. Integer id ligula id urna congue volutpat. Vivamus in nisl nec arcu fringilla condimentum. Duis at ex vel arcu vestibulum pretium. Sed nec ante ut ligula ultricies convallis. Sed id nunc sit amet purus aliquam aliquet vel a odio. Suspendisse nec augue metus. Suspendisse potenti. Vivamus lobortis leo in enim ultricies, at aliquam nunc blandit. Nullam non leo nec libero malesuada consectetur. Donec auctor aliquam leo, eget viverra justo.</p>
+                </div>
+            </section>
+            <!-- END SECTION HISTORY -->
+            <!-- SECTION RSVP -->
+            <section class="gla_section gla_lg_padding" data-color="#f3f3f3"> 
+                <div class="container text-center" id="gla-rsvp" style="padding-bottom: 100px">
+                    <p><img src="images/animations/flowers2.gif" data-bottom-top="@src:images/animations/flowers2.gif; opacity:1" class="gla_animated_flower" height="260" style="margin-top: -150px;" alt=""></p>
+                    <div class="gla_slide_midtitle" style="color: #83341E;">Nos vemos no<br>casamento!</div>
+                    <p>Por favor, confirme sua presença.</p>
+                    <p><a href="#" class="btn" style="color: #fff; background-color: #83341E;" onclick="openModal()">Confirme</a></p>
+                    
+                </div>
+    
+            </section>
+            <!-- END SECTION RSVP -->
+            <!-- PRESENT LIST -->
+            <section class="gla_section gla_image_bck gla_wht_txt gla_fixed"  data-color="#83341E">
+                <div class="gla_over" data-color="#000" data-opacity="0.3"></div>
+                <div class="container text-center">
+                    <h2>Lista de Presente</h2>
+                    <p>Preparamos uma lista de presente divertida para vocês:</p>
+                    <div class="col-md-4 gla_anim_box">
+                        <div class="gla_shop_item">
+                            <span class="gla_shop_item_slider">
+                                <img src="images/presents/1.jpeg" alt="">
+                            </span>
+                            
+                            <a href="#" class="gla_shop_item_title">
+                                Pra você que é mão de vaca mas ainda sim quer nos ajudar a ser feliz
+                                <b>R$50,00</b>
+                            </a>
+                            <div class="gla_shop_item_links">
+                                <a href="#"><i class="ti ti-shopping-cart"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 gla_anim_box">
+                        <div class="gla_shop_item">
+                            <span class="gla_shop_item_slider">
+                                <img src="images/presents/2.jpeg" alt="">
+                            </span>
+                            
+                            <a href="#" class="gla_shop_item_title">
+                                ! ano de Netflix para os noivos curtirem um filminho!
+                                <b>R$311,17</b>
+                            </a>
+                            <div class="gla_shop_item_links">
+                                <a href="#"><i class="ti ti-shopping-cart"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 gla_anim_box">
+                        <div class="gla_shop_item">
+                            <span class="gla_shop_item_slider">
+                                <img src="images/presents/3.jpeg" alt="">
+                            </span>
+                            
+                            <a href="#" class="gla_shop_item_title">
+                                Adote um boletinho atrasado! Tem várias cores, são tão lindos... não vão se arrepender!
+                                <b>R$155,59</b>
+                            </a>
+                            <div class="gla_shop_item_links">
+                                <a href="#"><i class="ti ti-shopping-cart"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 gla_anim_box">
+                        <div class="gla_shop_item">
+                            <span class="gla_shop_item_slider">
+                                <img src="images/presents/4.jpeg" alt="">
+                            </span>
+                            
+                            <a href="#" class="gla_shop_item_title">
+                                Ajude o noivo a aposentar mais cedo, ele já tá com cabelo branco!
+                                <b>R$1037,24</b>
+                            </a>
+                            <div class="gla_shop_item_links">
+                                <a href="#"><i class="ti ti-shopping-cart"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 gla_anim_box">
+                        <div class="gla_shop_item">
+                            <span class="gla_shop_item_slider">
+                                <img src="images/presents/5.jpeg" alt="">
+                            </span>
+                            
+                            <a href="#" class="gla_shop_item_title">
+                                Ajuda para comprar a Alexa pra noiva não mandar só no noivo!
+                                <b>R$311,17</b>
+                            </a>
+                            <div class="gla_shop_item_links">
+                                <a href="#"><i class="ti ti-shopping-cart"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 gla_anim_box">
+                        <div class="gla_shop_item">
+                            <span class="gla_shop_item_slider">
+                                <img src="images/presents/6.jpeg" alt="">
+                            </span>
+                            
+                            <a href="#" class="gla_shop_item_title">
+                                Aviãozinho de dinheiro do Silvio Santos para você doar o que tiver no seu coração!
+                                <b>R$ x,xx</b>
+                            </a>
+                            <div class="gla_shop_item_links">
+                                <a href="#"><i class="ti ti-shopping-cart"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 gla_anim_box">
+                        <div class="gla_shop_item">
+                            <span class="gla_shop_item_slider">
+                                <img src="images/presents/7.jpeg" alt="">
+                            </span>
+                            
+                            <a href="#" class="gla_shop_item_title">
+                                Caneca para o noivo tomar o café pra trabalhar mais animado.
+                                <b>R$103.72</b>
+                            </a>
+                            <div class="gla_shop_item_links">
+                                <a href="#"><i class="ti ti-shopping-cart"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 gla_anim_box">
+                        <div class="gla_shop_item">
+                            <span class="gla_shop_item_slider">
+                                <img src="images/presents/9.jpeg" alt="">
+                            </span>
+                            
+                            <a href="#" class="gla_shop_item_title">
+                                Seja nosso parente preferido e seja convidado para almoços aleatórios aos domingo! Uma grande oportunidade, vai perder?
+                                <b>$1074,47</b>
+                            </a>
+                            <div class="gla_shop_item_links">
+                                <a href="#"><i class="ti ti-shopping-cart"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 gla_anim_box">
+                        <div class="gla_shop_item">
+                            <span class="gla_shop_item_slider">
+                                <img src="images/presents/8.jpeg" alt="">
+                            </span>
+                            
+                            <a href="#" class="gla_shop_item_title">
+                                Para aqueles que perguntam "Posso levar fulano?", também tem a opção para vocês
+                                <b>$2050,27</b>
+                            </a>
+                            <div class="gla_shop_item_links">
+                                <a href="#"><i class="ti ti-shopping-cart"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>  
+            <!-- SECTION FINAL -->
+            <section class="gla_section gla_image_bck" data-color="#f3f3f3">
+                <div class="gla_slider_flower" data-bottom-top="@class:gla_slider_flower active" data--200-bottom="@class:gla_slider_flower no_active">
+                    <div class="gla_slider_flower_c1 gla_slider_flower_ii gla_slider_flower_item"></div>
+                    <div class="gla_slider_flower_c3 gla_slider_flower_ii gla_slider_flower_item"></div>
+                </div>
+                <div class="gla_over" data-color="#000" data-opacity="0.08"></div>
+                <div class="container text-center">
+                    <p><img src="images/animations/thnyou.gif" alt="" height="200" data-bottom-top="@src:images/animations/thnyou.gif"></p>                    
+                </div>
+            </section>
+            <!-- END SECTION FINAL -->
+        </section>
+        <!-- END CONTENT -->
+    </div>
+    <!-- END WRAPPER -->
+    <!-- MODAL -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="gla_invitation_container">
+                <div class="gla_invitation_i gla_invitation_ii gla_image_bck" data-image="images/invitations/inv_i/back6.jpg">
+                    <br><br>
+                    <p><img src="images/invitations/inv_i/save_the_date_bl.gif" alt="" height="100"></p>
+                    <h3 style="margin-bottom: 20px;">Mayara & Daniel</h3>
+                    <span style="font: italic 400 18px/30px Playfair Display, Arial">19 de Outubro, 2024 <br>Rua A, 145 - Uberlândia, MG</span>
+                    <div class="form-rsvp">
+                        <form id="form">
+                            <div class="group">
+                                <input type="text" id="name" name="name"><label>Nome</label>
+                            </div>
+                            <div class="group">
+                                <input type="text" id="email" name="email"><label>E-mail</label>
+                            </div>
+                            <div class="group">
+                                <input type="text" id="phone" name="phone"><label>Telefone</label>
+                            </div>
+                            <div class="submit-box" style="margin-top: 30px;">
+                                <p><a href="#" class="btn" style="color: #fff; background-color: #83341E;" onclick="saveToFirebase()">Enviar</a></p>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END MODAL -->
+    <script type="text/javascript">
+    var modal = document.getElementById("modal");
+
+    // Função para abrir o modal
+    function openModal() {
+        modal.style.display = "block";
+    }
+
+    // Função para abrir o modal
+    function openModal() {
+        modal.style.display = "block";
+    }
+
+    // Obtém o elemento <span> que fecha o modal
+    var span = document.getElementsByClassName("close")[0];
+
+   // Quando o usuário clicar no <span> (x), fecha o modal
+    span.onclick = function() {
+        modal.style.display = "none";
+    }
+
+    // Quando o usuário clicar fora do modal, fecha-o
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+    var firebaseConfig = {
+        apiKey: "AIzaSyAc5ENv0yrAhTNqNXGMvFzt_5jmXGZ76Zw",
+        authDomain: "wedding-md-56ba1.firebaseapp.com",
+        databaseURL: "https://wedding-md-56ba1-default-rtdb.firebaseio.com/",
+        projectId: "wedding-md-56ba1",
+        storageBucket: "wedding-md-56ba1.appspot.com",
+        
+        };
+
+    firebase.initializeApp(firebaseConfig);
+    function saveToFirebase() {
+        const formData = new FormData(document.getElementById('form'));
+        const name = formData.get('name');
+        const email = formData.get('email');
+        const phone = formData.get('phone');
+        console.log(name, email, phone);
+
+        // Referência para o banco de dados
+        var databaseRef = firebase.database().ref('dadosFormulario/');
+
+        // Cria um novo objeto com os dados do formulário
+        var newPostRef = databaseRef.push();
+        newPostRef.set({
+            name: name,
+            email: email,
+            phone: phone
+        }).then(function() {
+            alert('Seu registro foi salvo, esperamos você!');
+            modal.style.display = "none";
+        }).catch(function(error) {
+            console.error('Erro ao salvar dados:', error);
+            alert('Não consegui salvar seus dados, nos contate para confirmar seu nome.');
+        });
+    }
+    </script>
+    
+    <!-- JQuery -->
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <!-- Library JS -->
+    <script src="js/glanz_library.js"></script>
+    <!-- Theme JS -->
+    <script src="js/glanz_script.js"></script>
+</body>
+</html>
